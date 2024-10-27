@@ -33,7 +33,11 @@ Updated: Oct 10, 2024
 The application embeds a hardcoded encryption key `(defaultRealmKey)` within the source code file `gr/desquared/kmmsharedmodule/db/RealmDB.java`. This key is used to encrypt the Realm database file named `defaultKMMV4.realm.enc`. Because the encryption key is hardcoded and packaged inside the APK, an attacker can extract it from the APK file. This exposure enables the attacker to decrypt the database file, leading to unauthorized access to confidential user information, including sensitive personal data and credit card details.
 
 
-<br /> Vulnerability found at: **RealmDB.java**
+<br /> 
+
+## Root cause:
+
+Vulnerability found at: **RealmDB.java**
 
 Path: gr/desquared/kmmsharedmodule/db/RealmDB.java
 
