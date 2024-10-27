@@ -140,8 +140,10 @@ Open the encrypted Realm file (defaultKMMV4.realm.enc).
 
 When prompted, enter the hexadecimal encryption key (encryptionKeyHex).
 
+<br />
 
 CWE-312: Cleartext Storage of Sensitive Information
+
 CVSS v3.1 Base Score: 7.8 (High)
 
 DONE !
