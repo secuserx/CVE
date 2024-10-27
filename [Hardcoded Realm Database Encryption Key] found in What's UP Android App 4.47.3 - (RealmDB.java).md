@@ -65,6 +65,8 @@ Within this class there is a hardcoded encryption key used for securing the data
 private static final String defaultRealmKey = "1234567812345678123456781234567812345678123456781234567812345678";
 ```
 
+This encryption key can be used to decrypt the application Realm database !
+
 <br />
 
 ## Impact
