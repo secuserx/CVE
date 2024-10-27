@@ -154,36 +154,36 @@ When prompted, enter the hexadecimal encryption key (encryptionKeyHex).
 
 1. **Use the Android Keystore System for Secure Key Storage**
 
-Benefits:
+**Benefits:**
 
-Hardware-backed Security: Keys can be stored in hardware-backed keystores on devices that support it.
+**Hardware-backed Security:** Keys can be stored in hardware-backed keystores on devices that support it.
 
-Isolation: Keys are stored outside the app's process space, making them more resistant to extraction.
+**Isolation:** Keys are stored outside the app's process space, making them more resistant to extraction.
 
 <br />
 
 2. **Generate Unique Encryption Keys per Device or User**
 
-Benefits: 
+**Benefits:**
 
 Using unique keys minimizes the impact if a key is compromised. It ensures that only data on a particular device or user account is at risk, not all users.
 
 
-Methods:
-Per-Device Keys: Generate a key during the first launch of the app and store it securely.
+**Methods:**
+**Per-Device Keys:** Generate a key during the first launch of the app and store it securely.
 
-Per-User Keys: If your app has user authentication, derive the key from user-specific credentials.
+**Per-User Keys:** If your app has user authentication, derive the key from user-specific credentials.
 
 <br />
 
 
 3. **Use a Key Derivation Function (KDF)**
 
-Benefits:
+**Benefits:**
 
 Even if the KDF parameters are known, without the original input (password/PIN), the key cannot be derived.
 
-Choose a Strong KDF: For example PBKDF2.
+**Choose a Strong KDF:** For example PBKDF2.
 
 <br />
 
