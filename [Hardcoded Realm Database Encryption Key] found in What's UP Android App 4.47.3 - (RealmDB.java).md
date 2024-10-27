@@ -142,6 +142,7 @@ String encryptionKeyHex = hexString.toString();
 
 Now launch Realm Studio.
 Open the encrypted Realm file (defaultKMMV4.realm.enc).
+
 When prompted, enter the hexadecimal encryption key (encryptionKeyHex).
 
 DONE !
