@@ -146,7 +146,7 @@ When prompted, enter the hexadecimal encryption key (encryptionKeyHex).
 ## Recommendations for Secure Encryption Key Management
 
 
-1. Use the Android Keystore System for Secure Key Storage
+1. **Use the Android Keystore System for Secure Key Storage**
 
 Benefits:
 
@@ -156,7 +156,7 @@ Isolation: Keys are stored outside the app's process space, making them more res
 
 <br />
 
-2. Generate Unique Encryption Keys per Device or User
+2. **Generate Unique Encryption Keys per Device or User**
 
 Benefits: 
 
@@ -171,13 +171,15 @@ Per-User Keys: If your app has user authentication, derive the key from user-spe
 <br />
 
 
-3. Use a Key Derivation Function (KDF)
+3. **Use a Key Derivation Function (KDF)**
 
 Benefits:
 
 Even if the KDF parameters are known, without the original input (password/PIN), the key cannot be derived.
 
 Choose a Strong KDF: For example PBKDF2.
+
+<br />
 
 CWE-312: Cleartext Storage of Sensitive Information
 
