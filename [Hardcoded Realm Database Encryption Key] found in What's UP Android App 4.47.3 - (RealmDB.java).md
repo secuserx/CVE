@@ -6,7 +6,7 @@ Platform: Android
 
 Vendor: Cosmote Greece
 
-Official Website: (https://play.google.com/store/apps/details?id=gr.cosmote.whatsup)
+Official Application Link: (https://play.google.com/store/apps/details?id=gr.cosmote.whatsup)
 
 Version: 4.47.3
 
