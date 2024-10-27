@@ -187,6 +187,8 @@ Choose a Strong KDF: For example PBKDF2.
 
 <br />
 
+## CWE & CVE score
+
 CWE-312: Cleartext Storage of Sensitive Information
 
 CVSS v3.1 Base Score: 7.8 (High)
