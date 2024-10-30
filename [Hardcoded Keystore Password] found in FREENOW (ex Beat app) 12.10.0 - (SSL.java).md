@@ -134,6 +134,7 @@ try (InputStream input = new FileInputStream("ssl-config.properties")) {
 ## CWE & CVE score
 
 CWE-312: Cleartext Storage of Sensitive Information
+
 CVSS v3.1 Base Score: 7.8 (High)
 
 <br />
