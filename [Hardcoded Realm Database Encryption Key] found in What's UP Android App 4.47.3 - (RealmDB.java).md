@@ -1,6 +1,8 @@
-# [Hardcoded Realm Database Encryption Key] found in What's UP Android App 4.47.3 - (RealmDB.java)
+# CVE-2024-10748 - [Hardcoded Realm Database Encryption Key] found in What's UP Android App 4.47.3 - (RealmDB.java)
 
 Affected Project: **WHAT'S UP 4.47.3**
+
+Exploit Author: Dimitris Chatzidimitris
 
 Platform: Android
 
