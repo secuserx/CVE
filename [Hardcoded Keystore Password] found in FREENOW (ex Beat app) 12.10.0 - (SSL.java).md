@@ -2,6 +2,8 @@
 
 Affected Project: **FREENOW (ex Beat app)**
 
+Exploit Author: Dimitris Chatzidimitris
+
 Platform: Android
 
 Vendor: Intelligent Apps GmbH
