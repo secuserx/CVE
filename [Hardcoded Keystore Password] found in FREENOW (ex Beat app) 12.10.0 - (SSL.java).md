@@ -1,4 +1,4 @@
- Beat # CVE-2024-11026 - [Hardcoded Keystore Password] found in FREENOW (ex Beat app) 12.10.0 - (SSL.java)
+# CVE-2024-11026 - [Hardcoded Keystore Password] found in FREENOW (ex Beat app) 12.10.0 - (SSL.java)
 
 Affected Project: **FREENOW (ex Beat app)**
 
